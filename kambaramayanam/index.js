@@ -9,7 +9,7 @@ function collapsible(id) {
 }
 
 function getContent(nav, name) {
-  console.log(name)
+  console.log({ nav, name })
   var file = nav + '/' + name + '.html'
   var elmnt = document.getElementById('mid-content')
   var xhttp = new XMLHttpRequest()
