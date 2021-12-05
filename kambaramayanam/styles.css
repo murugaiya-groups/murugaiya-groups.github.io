@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header,
+.footer {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-navi {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+}
+
+.collapsible {
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible-content {
+  display: none;
+  overflow: hidden;
+  margin-left: 15px;
+}
