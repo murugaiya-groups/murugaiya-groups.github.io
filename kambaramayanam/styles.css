@@ -1,31 +1,47 @@
+html,
 body {
+  height: 100%;
   background-color: lightblue;
 }
 .main {
   display: flex;
   flex-direction: column;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  align-items: stretch;
 }
 
 .header,
 .footer {
+  min-height: 7%;
   border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
+  flex-grow: 1;
+}
+.header {
+  font-size: 25px;
 }
 
 .body-content {
   display: flex;
   flex-direction: row;
+  flex-grow: 10;
+  align-items: stretch;
 }
 
 .left-navi {
   border: 1px solid black;
+  min-width: 15%;
   display: flex;
   flex-direction: column;
-  height: 420px;
+  flex-grow: 1;
+}
+.mid-content {
+  border: 1px solid black;
+  flex-grow: 10;
 }
 
 .collapsible {
@@ -40,4 +56,23 @@ body {
   display: none;
   overflow: hidden;
   margin-left: 15px;
+}
+
+.padal-content {
+  display: flex;
+  flex-direction: column;
+  /* width: 750px; */
+  /* height: 421px; */
+  flex: 1;
+}
+
+.padal-item {
+  border: 1px solid black;
+  flex-grow: 1;
+}
+.padal-head {
+  text-align: center;
+}
+.urai {
+  font-size: 12px;
 }
