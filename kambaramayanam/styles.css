@@ -70,9 +70,11 @@ body {
   border: 1px solid black;
   flex-grow: 1;
 }
-.padal-head {
+.padal-head,
+.padal-sub-head {
   text-align: center;
 }
+
 .urai {
   font-size: 12px;
 }

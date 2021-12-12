@@ -14,7 +14,7 @@
       <div class="header">கம்பராமாயணம்</div>
       <div class="body-content">
         <div class="left-navi">
-          <div class="payiram collapsible">
+          <div class="collapsible">
             <div onclick="collapsible('payiram-items')">பாயிரம்</div>
             <div class="collapsible-content" id="payiram-items">
               <div onclick="getContent('payiram','kadavul')">
@@ -27,12 +27,20 @@
               </div>
             </div>
           </div>
-          <div onclick="collapsible('bala-items')">பால காண்டம்</div>
-          <div class="collapsible-content" id="bala-items">
-            <div onclick="getContent('balakandam','aaru')">ஆற்றுப் படலம்</div>
-            <div onclick="getContent('balakandam','nadu')">நாட்டுப் படலம்</div>
-            <div onclick="getContent('balakandam','nagaram')">நகரப் படலம்</div>
-            <div onclick="getContent('balakandam','arasu')">அரசியற் படலம்</div>
+          <div class="collapsible">
+            <div onclick="collapsible('bala-items')">பால காண்டம்</div>
+            <div class="collapsible-content" id="bala-items">
+              <div onclick="getContent('balakandam','aaru')">ஆற்றுப் படலம்</div>
+              <div onclick="getContent('balakandam','nadu')">
+                நாட்டுப் படலம்
+              </div>
+              <div onclick="getContent('balakandam','nagaram')">
+                நகரப் படலம்
+              </div>
+              <div onclick="getContent('balakandam','arasu')">
+                அரசியற் படலம்
+              </div>
+            </div>
           </div>
           <div>அயோத்தியா காண்டம்</div>
           <div>ஆரணிய காண்டம்</div>
