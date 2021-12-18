@@ -16,7 +16,7 @@
         <div class="left-navi">
           <div class="collapsible">
             <div onclick="collapsible('payiram-items')">பாயிரம்</div>
-            <div class="collapsible-content" id="payiram-items">
+            <div class="collapsible-content cl1" id="payiram-items">
               <div onclick="getContent('payiram','kadavul')">
                 கடவுள் வாழ்த்து
               </div>
@@ -29,8 +29,16 @@
           </div>
           <div class="collapsible">
             <div onclick="collapsible('bala-items')">பால காண்டம்</div>
-            <div class="collapsible-content" id="bala-items">
-              <div onclick="getContent('balakandam','aaru')">ஆற்றுப் படலம்</div>
+            <div class="collapsible-content cl1" id="bala-items">
+              <div onclick="collapsible('aaru-items')">ஆற்றுப் படலம்</div>
+              <div class="collapsible-content cl2" id="aaru-items">
+                <div onclick="getContent('balakandam','aaru/megam')">
+                  மேகம்-மழை
+                </div>
+                <div onclick="getContent('balakandam','aaru/vellam')">
+                  வெள்ளம்
+                </div>
+              </div>
               <div onclick="getContent('balakandam','nadu')">
                 நாட்டுப் படலம்
               </div>
